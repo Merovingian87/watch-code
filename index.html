@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WnC Tutorial</title>
+
+    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script-v2.js"></script>
+  </head>
+  <body>
+    <h1>My Todo List</h1>
+
+    <div>
+      <button onclick="handlers.toggleAll()">ToggleAll</button>
+      </div>
+
+    <div>
+      <button onclick="handlers.add()">Add</button>
+      <input id="addInput"type="text">
+    </div>
+
+    <div>
+      <button onclick="handlers.change()">Change Todo</button>
+      <input id="inputChangePosition" type="number">
+      <input id="inputChangeItem"type="text">
+    </div>
+
+    <div>
+      <button onclick="handlers.delete()">Delete</button>
+      <input id="inputDeletePosition" type="number">
+    </div>
+
+    <div>
+      <button onclick="handlers.toggle()">Toggle Completed</button>
+      <input id="inputToggleComp" type="number">
+    </div>
+
+    <ul>
+    </ul>
+
+    <!-- <script src="script-v2.js"></script> -->
+  </body>
+</html>
